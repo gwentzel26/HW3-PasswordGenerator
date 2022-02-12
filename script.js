@@ -142,7 +142,9 @@ function generatePassword() {
 
   // Write password to the #password input
   //what they picked
-  // confirmation = alert("You chose")
+  confirmation = alert("You chose " + passwordLength + " characters, " 
+  + "lower case letters = " + chooseLower + ", upper case letters = " + chooseUpper
+   + ", numeric = " + chooseNumeric + ", special characters = " + chooseSpecial );
 
   if (
     chooseLower == false &&
@@ -154,7 +156,7 @@ function generatePassword() {
     window.location.reload();
   }
 
-  // Randomly select the amount of characters the user chose from the master array possChar
+  // Randomly select the amount of characters the user chose from the master array 
   for (i = 0; i < passwordLength; i++) {
     genPassword += masterARR[Math.floor(Math.random() * masterARR.length)];
     console.log(genPassword);
