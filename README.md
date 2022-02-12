@@ -11,5 +11,5 @@ I learned an awful lot from this project.  I learned the significance between lo
     ![Screenshot of working password generator](./ScreenShot.png);
     ```
 ​Links:
-github repo url: 
-Deployed application url: 
+github repo url: "https://github.com/gwentzel26/HW3-PasswordGenerator";
+Deployed application url: "https://gwentzel26.github.io/HW3-PasswordGenerator/";
